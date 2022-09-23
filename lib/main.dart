@@ -46,7 +46,7 @@ class _MyHomePageState extends State<MyHomePage> {
             UserAccountsDrawerHeader(
               accountName: const Text('Ben'),
               accountEmail: const Text('Ben.Tseng@fusheng.com'),
-              currentAccountPicture: Image.asset('assets/waiting.gif'),
+              currentAccountPicture: Image.asset('assets/images/air-compressor.png'),
               decoration: const BoxDecoration(color: Colors.blue),
             ),
             ListTile(
