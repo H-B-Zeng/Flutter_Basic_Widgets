@@ -31,12 +31,24 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
   font_awesome_flutter: any
   transparent_image: any
+  pdf: ^3.8.3
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+
+  #使用本地端Package
+  #package name:
+    #path: 可用相對或絕對路徑
+
+  #若package在git專案網址的根目錄 https://ithelp.ithome.com.tw/articles/10216804
+  #package name:
+  # git:
+    # url: git://github.com/....
+  # // 若package在git專案網址下的資料夾
+    # url: git://github.com/...
+    # path: 資料夾路徑
 
 dev_dependencies:
   flutter_test:
