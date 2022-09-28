@@ -64,8 +64,10 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.title),
-        leading: const Icon(FontAwesomeIcons.dragon),
-        //leading: const Icon(FontAwesomeIcons.dragon),
+        // leading: IconButton(
+        //   icon: const Icon(Icons.menu),
+        //   onPressed: () {  Navigator.pop(context); },
+        // ),
       ),
         body: Center(
           child: _widgetOptions.elementAt(_selectedIndex),
